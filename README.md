@@ -4,6 +4,7 @@ A wrapper for the jsPDF library making client-side PDF generation even easier
 ## about
 - boxdoc was made to eliminate the need for constant tracking of coordinates for more regularly and easily performed tasks.
 - Sorry, the source has little to no comments. It is on the to do list (might never happen)
+- I have not tested the code and it is definitely not production ready
 
 ## how it works
 - boxes can be added and inserted.
