@@ -1,9 +1,21 @@
 
 # boxdoc
 
+## About
+The aim of boxdoc is to easily create PDF documents. This is done with the ability of creating boxes. 
+Boxes can be nested or inserted around an exisiting box.
+Boxes have 3 borders.
+- The outermost border is where the margins lie.
+- The middle is the main border of the box and is affected by the given width and height.
+- The innermost border is where text is added. This is reduced when padding or a border is added.
+
+Currently boxes can be given a solid border, fill, padding, margin and paddingFill (fills the inner area).
+Text can also be added to boxes.
+
 ## Demos
 - [Demo 1](https://jsfiddle.net/q3gxsy7e/3/)
-- [Demo 2](https://jsfiddle.net/q3gxsy7e/27/)
+- [Demo 2](https://jsfiddle.net/q3gxsy7e/30/)
+- [Demo 3](https://jsfiddle.net/wpy8nx20/3/)
 
 More demos to follow. And API demos available below.
 ## API
