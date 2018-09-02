@@ -1,6 +1,10 @@
+
 # boxdoc
 
-## Creating the pdf
+## Demos
+[Demo 1](https://jsfiddle.net/q3gxsy7e/3/)
+More demos to follow. And API demos available below.
+## API
 
 ### new BD.pdf( settings )
 
