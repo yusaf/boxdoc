@@ -2,7 +2,9 @@
 # boxdoc
 
 ## Demos
-[Demo 1](https://jsfiddle.net/q3gxsy7e/3/)
+- [Demo 1](https://jsfiddle.net/q3gxsy7e/3/)
+- [Demo 2](https://jsfiddle.net/q3gxsy7e/27/)
+
 More demos to follow. And API demos available below.
 ## API
 
