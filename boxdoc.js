@@ -168,7 +168,8 @@
 					spacing = [top, top, top, top];
 				}
 				else if( topIs === "string" ){
-					spacing = spacing.trim().replace(/\,| {1,}/g, " ").split(" ");					
+					console.log(spacing);
+					spacing = top.trim().replace(/\,| {1,}/g, " ").split(" ");					
 				}
 				else if( topIs === "array" ){
 					spacing = top.length > 1 ? top : [top[0], top[0], top[0], top[0]];
@@ -906,6 +907,7 @@
 	
 	BD.boxMethod("border",{
 		preCommit: function(width){
+			if(width===0) return this;
 			width =  width === undefined ? this.getPDF("draw").width : +width;
 			for(var position in this.settings.padding){
 				this.settings.padding[ position ] += width;
@@ -913,6 +915,7 @@
 			return this;
 		},
 		postCommit: function(width, color){
+			if(width===0) return this;
 			width =  width === undefined ? this.getPDF("draw").width : +width;
 			color =  color === undefined ? this.getPDF("draw").color : BD.color(color);
 			this.jsPDF().setLineWidth(width)
