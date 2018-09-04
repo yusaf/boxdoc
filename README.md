@@ -1,6 +1,6 @@
 
 # boxdoc
-
+Definitely not production ready. Methods will be added and methods may (unlikely) change.
 ## About
 The aim of boxdoc is to easily create PDF documents. This is done with the ability of creating boxes. 
 Boxes can be nested or inserted around an exisiting box.
