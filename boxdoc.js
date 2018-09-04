@@ -168,7 +168,6 @@
 					spacing = [top, top, top, top];
 				}
 				else if( topIs === "string" ){
-					console.log(spacing);
 					spacing = top.trim().replace(/\,| {1,}/g, " ").split(" ");					
 				}
 				else if( topIs === "array" ){
@@ -975,8 +974,11 @@
 					id:0
 				}
 			}
+			content = content.split(/\n(\n)/g).join("\n ");
 			
 			if(stylesKeys.length){
+				
+				
 				var splitText = content.split(new RegExp('(\\[\\/?' + stylesKeys.join('\\]|\\[\\/?') + '\\])'));
 				var activeStyleRegex = new RegExp('^\\[(\\/)?(' + stylesKeys.join('|') + ')\\]');
 				var activeStyles = [];
