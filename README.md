@@ -1,6 +1,7 @@
 
 # boxdoc
 !!!! a wrapper for [jsPDF](https://github.com/MrRio/jsPDF) !!!!
+
 Not complete. Methods will be added and methods may (unlikely) change.
 ## About
 The aim of boxdoc is to easily create PDF documents. This is done with the ability of creating boxes. 
