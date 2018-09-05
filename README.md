@@ -18,7 +18,7 @@ Text can also be added to boxes.
 - [Demo 1](https://jsfiddle.net/q3gxsy7e/3/)
 - [Demo 2](https://jsfiddle.net/q3gxsy7e/30/)
 - [Demo 3](https://jsfiddle.net/wpy8nx20/3/)
-- [Demo 4 (real world example)](https://jsfiddle.net/wpy8nx20/15/)
+- [Demo 4 (real world example)](https://jsfiddle.net/wpy8nx20/15/) OR [Demo 4 (with borders to visualize structure)](https://jsfiddle.net/0h4m5rof/)
 
 More demos to follow. And API demos available below.
 ## API
